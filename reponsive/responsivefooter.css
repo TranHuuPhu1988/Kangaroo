@@ -6,5 +6,6 @@
 @media only screen and (max-width: 1000px){
    .item{
        width: 180px;
+       margin-top: 20px;
    }
 }
