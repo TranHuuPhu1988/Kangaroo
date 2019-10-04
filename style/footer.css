@@ -31,7 +31,9 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
-
+.item{
+	width: 25%;
+}
 .clear {
 	clear: both;
 }
