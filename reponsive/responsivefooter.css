@@ -2,6 +2,12 @@
    .row{
        display: block;
    }
+   .item{
+       width: 300px;
+   }
+   .widgets{
+     width: 273%;
+   }   
 }
 @media only screen and (max-width: 1000px){
    .item{
