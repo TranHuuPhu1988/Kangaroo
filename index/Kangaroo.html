@@ -99,11 +99,14 @@
             <div class="subMenuWrapper d-flex">
                 <div class="subLogo">
                     <img src="./../img/logo.png" alt="">
-                    <div class="cart d-md-block d-lg-none">
-                        <span>0</span>
-                        <img src="./../img/cart.png" alt="">
+                    <div class="cartCount d-md-block d-lg-none">
+                        <div class="cart">
+                            <span>0</span>
+                            <img src="./../img/cart.png" alt="">
+                        </div>
                     </div>
                 </div>
+
                 <div class="formSearch">
                     <div class="cart d-none d-lg-block">
                         <span>0</span>
@@ -136,7 +139,7 @@
         // console.log(mw);
 
         function myFunction() {
-            if (mw > 768) {
+            if (mw > 991) {
                 if (window.pageYOffset >= sticky.top) {
                     navbar.addClass("sticky");
                     // $(".navbar-area").addClass("sticky");
@@ -145,16 +148,22 @@
                     // $(".navbar-area").removeClass("sticky");
                 }
             }
-            if (mw <= 768) {
+            if (mw <= 991) {
                 if (window.pageYOffset >= sticky.top) {
                     nav.addClass("sticky2");
-                    // $(".navbar-area").addClass("sticky");
+                    $("#header").addClass("headerSpace");
                 } else {
                     nav.removeClass("sticky2");
-                    // $(".navbar-area").removeClass("sticky");
+                    $("#header").addClass("headerSpace");
                 }
             }
         }
+
+        $(document).ready(function () {
+            if (mw <= 991) {
+                $(".navbar").css("width", mw + "px");
+            }
+        })
     </script>
     <!--end header -->
     <!-- slide -->
