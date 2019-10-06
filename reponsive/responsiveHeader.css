@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+
+    #header {
+        margin-bottom: 90px;
+    }
+    .navbar-wrapper {
+        width: 80%;
+        float: left;
+    }
+
+    .navbar-area {
+        float: left;
+        background-color: white;
+        width: 20%;
+        /* display: none; */
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-area nav a {
+        color: black;
+    }
+
+    .subMenuWrapper {
+        width: 80%;
+        /* top: 0; */
+        flex-grow: row wrap;
+    }
+
+    .subLogo {
+        width: 100%;
+        display: flex;
+    }
+
+    .subLogo img {
+        width: 100;
+    }
+
+    .subMenuFixed {
+        display: flex;
+    }
+
+    .subMenuFixed .navbar-area {
+        width: 20%;
+        order: 1;
+    }
+
+    .subMenuFixed .subMenuWrapper {
+        width: 80%;
+        order: 2;
+        flex-flow: row wrap;
+    }
+
+    .sticky2{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 999;
+    }
+
+    .formSearch {
+        width: 100%;
+    }
+    .subLogo .cart {
+        display: table-cell;
+        width: 50%;
+        order: 1;
+        position: relative;
+    }
+
+    .subLogo .cart img {
+        position: absolute;
+        bottom: 0;
+        left: 23%;
+        height: 70%;
+    }
+
+    .subLogo .cart span {
+        position: absolute;
+        top: 16px;
+        left: 37px;
+    }
+    .formSearch .formArea {
+        order: 2;
+        width: 135%;
+        margin-left: -30%;
+        margin-right: -16%;
+    }
+
+    .formSearch .formArea input{
+        width: 75%;
+    }
+
+    .formArea button {
+        width: 25%;
+        font-size: 12px;
+    }
+}
