@@ -1,0 +1,64 @@
+.scroll_menu.hidden-xs.visible{
+	border:1px solid #eee;
+	right:0px !important;
+	background:#fff;
+}
+.scroll_menu.visible {
+    opacity: 1;
+    visibility: visible;
+}
+.scroll_menu {
+    position: fixed;
+   	top: 20%;
+ 	z-index: 10;
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    
+}
+.visible {
+    visibility: visible!important;
+}
+.icon1 {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 12px;
+   
+}
+.icon2 {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 12px;
+    
+}
+.icon3 {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 12px;
+    
+}
+.icon4 {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 12px;
+    
+}
+.icon5 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 12px;
+    
+}
+/*reponsive*/
+@media screen and (max-width:640px){
+	.scroll_menu.hidden-xs.visible
+	{
+		display: none;
+	}
+}
+
+
