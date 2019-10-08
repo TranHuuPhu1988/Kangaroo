@@ -45,16 +45,17 @@ body {
 	border-top-color: rgba(0,0,0,0.2);
 }
 
-.row {
+.row-footer {
 	font-size: 0;
 	margin-right: -15px;
 	margin-left: -15px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	justify-content: center;
+	display: flex;
 }
 
-.row[class*="prefooter_one"] .item {
+.row-footer[class*="prefooter_one"] .item {
 	padding-left: 15px;
 	padding-right: 15px;
 	display: inline-block;
